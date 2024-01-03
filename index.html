@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-    
-    <!-- <script src="https://kit.fontawesome.com/cfd50280ac.js" crossorigin="anonymous"></script> -->
+<html  lang="en">
 
 <head>
 <style>/* Stylesheet 1: */
@@ -197,6 +195,8 @@ body {
     border-radius: 10px;
   }
   .hr1{
+    background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -440,6 +440,8 @@ body {
     border-radius: 10px;
   }
   .hr1{
+    background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -682,7 +684,8 @@ body {
     top: 0;
     border-radius: 10px;
   }
-  .hr1{
+  .hr1{background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -925,7 +928,8 @@ body {
     top: 0;
     border-radius: 10px;
   }
-  .hr1{
+  .hr1{background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -1167,7 +1171,8 @@ body {
     top: 0;
     border-radius: 10px;
   }
-  .hr1{
+  .hr1{background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -1409,7 +1414,8 @@ a{
     top: 0;
     border-radius: 10px;
   }
-  .hr1{
+  .hr1{background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -1652,6 +1658,8 @@ a{
     border-radius: 10px;
   }
   .hr1{
+    background-color: white;
+    color: white;
     margin-top: 50px;
   }
   i{
@@ -1708,7 +1716,15 @@ a{
 a{
     text-decoration: none;
 }
+
 </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="style2.css">
+<script src="https://kit.fontawesome.com/cfd50280ac.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 <header>
@@ -1718,7 +1734,7 @@ a{
             </div>
        <div class="div2">
         <button class="button0" onclick="reStyle(0)"> Home</button>
-        <button class="button1 " onclick="reStyle(1)"> About</button>
+        <button class="button1" onclick="reStyle(1)"> About</button>
         <button class="button2" onclick="reStyle(2)">Skills</button>
         <button class="button3" onclick="reStyle(3)"> Education</button>
         <button class="button4" onclick="reStyle(4)"> Work</button>
@@ -1748,7 +1764,7 @@ a{
             <br>
             <span class="span3">I Am Into Web Developer</span>
             <br><br>
-           <button class="button-4">About Me</button>
+            <p class="span3">I Am Into <span class="change-text"></span></p>
             <br><br>
         <a href="https://www.facebook.com/profile.php?id=100089667051639&mibextid=vk8aRt">
             <span class="span6">
@@ -1786,6 +1802,40 @@ a{
     <hr class="hr1">
 </section>
 
+<footer>
+    <div class="div-4">
+        <div class="flex div-5">
+            <div class="div-6">
+                <span class="span10">Md Anisur Portfolio</span><br><br>
+                Thank you for visiting my personal <br>
+                 portfolio website. Connect with me over <br>
+                socials <br><br>
+        
+                Keep Rising 🚀. Connect with me over live chat!
+            </div>
+            <div class="div-7">
+                <span class="span10">Quick Links</span>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Work</a></li>
+                <li><a href="">Experience</a></li>
+              </ul>
+            </div>
+            <div class="div-8">
+                <span class="span10">Contact Info</span><br>
+                <span class="span5"><i class="fa-solid fa-phone"></i> +8801642******</span><br>
+                <span class="span5"><i class="fa-solid fa-envelope"></i> anisurTM@gmail.com</span><br>
+                <span class="span5"><i class="fa-solid fa-map-location-dot"></i> Bangladesh</span>
+            </div>
+        </div>
+        <hr class="hr5">
+        <span class="span-11">Designed With  By <a class="a1" href=""> Md Anisur Rahman</a></span>
+    </div>
+</footer>
+
 
 <script>
 function noStyles() {
@@ -1804,7 +1854,14 @@ function reStyle(n) {
 }
 reStyle(0);
 
+const typed = new Typed(".change-text", {
+    strings: ["web designing","web development"],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 25,
+    backDelay: 500,
+});
 </script>
+
 </body>
 </html>
-
